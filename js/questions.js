@@ -1,4 +1,5 @@
-
+var userAnswers = [];
+var qIndex = 0;
 var questions = [
     {
         questionText: "Who Invented the mechanical Computer?",
@@ -68,7 +69,7 @@ var questions = [
         answers: [
             {
                 answerText: "2004",
-                isCorrect: flase
+                isCorrect: false
             },
             {
                 answerText: "1901",
@@ -251,8 +252,14 @@ var questions = [
                 isCorrect: true
             }
         ]
-    },
+    }
 
 ];
 
-
+function getNextQuestion(){
+    if (qIndex < questions.length)
+        return questions[qIndex++];
+    else {
+        return null;
+    }
+}
