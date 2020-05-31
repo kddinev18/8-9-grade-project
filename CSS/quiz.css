@@ -1,0 +1,80 @@
+body 
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.button 
+{
+    
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    background-color: #fff;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+}
+.button a 
+{
+    text-decoration: none;
+    color: #555;
+    line-height: 25px;
+}
+#container 
+{
+    width:50%;
+    margin: 150px auto;
+    padding: 50px 30px;
+    background-color: rgb(252, 91, 59);
+    border-radius:3px;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #999;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+ul li
+{
+    background: rgb(212, 32, 32);
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block; 
+}
+#prev 
+{
+    display:none;
+}
+#start 
+{
+    display:none;
+    width: 100px;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.btnnextfinish2{
+    background: rgb(134, 15, 15);
+    color: #eeeeee;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: inherit;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 15px 35px;
+    float: left;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.btnnextfinish2:hover{
+    background: rgb(97, 9, 9)
+}

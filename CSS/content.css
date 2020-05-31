@@ -1,0 +1,129 @@
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(252, 91, 59) 50%, #FF7E3D 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+  
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+  
+.bg3 {
+    animation-duration:5s;
+}
+  
+@keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+}
+
+.maincontent {
+    background-color:rgb(252, 91, 59);
+    border-radius: 15px;
+    width: 70%;
+    height: 80%;
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0;
+    margin: 0 0 24px 0;
+}
+
+body {
+    background-color: rgb(223, 225, 250);
+}
+
+.spacing {
+    height: 10%;
+}
+
+h1 {
+    font-size: 56px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 64px;
+    letter-spacing: 0;
+    margin: 0 0 24px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    color:rgb(255, 255, 255);
+}
+
+a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.btnnextfinish{
+    background: rgb(212, 32, 32);
+    color: #eeeeee;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: inherit;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 15px 35px;
+    float: left;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.btnnextfinish:hover{
+    background: rgb(150, 20, 20)
+}
+
+.btnnextfinish1{
+    background: rgb(212, 32, 32);
+    color: #eeeeee;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: inherit;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 15px 35px;
+    float: right;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.btnnextfinish1:hover{
+    background: rgb(150, 20, 20)
+}
+
+.btnnextfinish2{
+    background: rgb(134, 15, 15);
+    color: #eeeeee;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: inherit;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 15px 35px;
+    float: left;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.btnnextfinish2:hover{
+    background: rgb(97, 9, 9)
+}
